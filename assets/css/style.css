@@ -1,0 +1,151 @@
+@font-face {
+  font-family: bold;
+  src: url("../fonts/CormorantGaramond-Bold.ttf");
+}
+
+@font-face {
+  font-family: regular;
+  src: url("../fonts/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+  font-family: light;
+  src: url("../fonts/CormorantGaramond-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgba(227, 226, 209, 0.717);
+}
+
+/* -header */
+header h1 {
+  font-family: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px auto;
+}
+
+header span {
+  font-size: 4.5rem;
+}
+
+header nav {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  display: flex;
+  justify-content: space-around;
+  font-family: light;
+  font-size: 2.6rem;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 5px rgba(140, 140, 140, 0.816);
+}
+
+/* -main */
+/* *general */
+main {
+  display: flex;
+}
+
+main h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto 15px auto;
+  font-family: bold;
+}
+
+p {
+  color: #333333fb;
+  font-family: light;
+}
+
+main section {
+  width: 80%;
+}
+
+.flex-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img p {
+  font-style: italic;
+  font-family: light;
+  margin-top: 5px;
+}
+
+/* * grid */
+.grid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-right: 10px;
+}
+
+main h3 {
+  font-size: 2.4rem;
+  font-family: bold;
+}
+
+main p {
+  font-size: 1.6rem;
+}
+
+/* -aside */
+
+.aside {
+  text-align: center;
+  width: 20%;
+}
+
+.aside h2 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+}
+
+.aside div {
+  border: 5px solid black;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: bold;
+}
+
+/* div 1 */
+.aside div:nth-of-type(1) {
+  font-size: 5rem;
+  padding: 25px 40px 25px 40px;
+}
+
+/*  div 2 */
+.aside div:nth-of-type(2) {
+  font-size: 5rem;
+  padding: 25px 30px 25px 30px;
+  font-family: light;
+}
+
+.aside div:nth-of-type(2) h3 {
+  font-size: 2rem;
+}
+
+.aside div:nth-of-type(2) a {
+  font-size: 2rem;
+  font-weight: 500;
+  border-bottom: 1px solid #737b80;
+  text-decoration: none;
+  color: #737b80;
+}
+
+/* div 3 */
+.aside div:nth-of-type(3) {
+  padding: 25px 25px 30px 25px;
+}
